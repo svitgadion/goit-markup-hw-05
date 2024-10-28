@@ -610,6 +610,10 @@ span.word-down {
     background-color: #404BBF;
     border: none;
 }
+.post-link-btn:hover svg,
+.post-link-btn:focus svg {
+    fill: #FFF;
+}
 .post-link-svg {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -628,15 +632,15 @@ span.word-down {
     margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 117%;
     letter-spacing: 0.04em;
     display: block;
     color: #8e8f99;
+    line-height: 1.17;
 }
 .input-container {
     position: relative;
-    margin-top: 4px;
     margin-bottom: 8px;
+    margin-top: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -646,10 +650,8 @@ span.word-down {
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
-    transition: fill;
-    transition: 250ms;
-    transition: cubic-bezier(0.4,0,0.2.1);
     fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4,0,0.2.1);
     font-size: 16px;
 }
 .input-container:focus-within svg {
@@ -673,7 +675,7 @@ span.word-down {
     height: 40px;
     font-size: 12px;
     outline: transparent;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     padding-left: 38px;
@@ -684,7 +686,7 @@ span.word-down {
     max-width: 100%;
     font-weight: 400;
     font-size: 12px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     height: 100px;
@@ -738,7 +740,7 @@ span.word-down {
     margin-right: 10px;
 }
 .form-link {
-    line-height: 133%;
+    line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4D5AE5;
@@ -761,7 +763,7 @@ span.word-down {
     cursor: pointer;
     font-weight: 400;
     font-size: 12px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -771,16 +773,18 @@ span.word-down {
     fill: #f4f4fd;
     border: none;
 }
-.subscribe-btn-form {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
+.submit-btn-form {
+    display: block;
+    min-width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
