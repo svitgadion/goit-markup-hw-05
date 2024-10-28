@@ -663,9 +663,9 @@ span.word-down {
 .label-contact-form-comm {
     margin-bottom: 16px;
 }
-.contakt-form input[type="text"],
-.contakt-form input[type="tel"],
-.contakt-form input[type="email"] {
+.contakt-fom input[type="text"],
+.contakt-fom input[type="tel"],
+.contakt-fom input[type="email"] {
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
     border-radius: 4px;
@@ -679,7 +679,7 @@ span.word-down {
     padding-left: 38px;
     border-color: 250ms cubic-bezier(0.4,0,0.2,1);
 }
-.contakt-form textarea {
+.contakt-fom textarea {
     margin-top: 4px;
     max-width: 100%;
     font-weight: 400;
@@ -698,10 +698,10 @@ span.word-down {
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
-.contakt-form input[type="text"]:focus,
-.contakt-form input[type="tel"]:focus,
-.contakt-form input[type="email"]:focus,
-.contakt-form textarea:focus {
+.contakt-fom input[type="text"]:focus,
+.contakt-fom input[type="tel"]:focus,
+.contakt-fom input[type="email"]:focus,
+.contakt-fom textarea:focus {
     border: 1px solid #4D5AE5;
     border-radius: 4px;
     outline: none;
