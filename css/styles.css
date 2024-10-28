@@ -630,7 +630,7 @@ span.word-down {
 }
 
 
-.label-contact-form-user {
+.label-contakt-form-user {
     margin-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
@@ -661,10 +661,10 @@ span.word-down {
 }
 
 
-.label-contact-fom {
+.label-contakt-fom {
     margin-bottom: 8px;
 }
-.label-contact-fom-comm {
+.label-contakt-fom-comm {
     margin-bottom: 16px;
 }
 .contakt-fom input[type="text"],
@@ -782,7 +782,7 @@ border-color: #4D5AE5;
     justify-content: center;
     fill: transparent;
 }
-.label-contact-form-checkbox {
+.label-contakt-form-checkbox {
     align-items: center;
     cursor: pointer;
     font-weight: 400;
@@ -792,7 +792,7 @@ border-color: #4D5AE5;
     color: #8e8f99;
 }
 .checkbox-privacy:checked, 
-.label-contact-form-checkbox.checkbox-item {
+.label-contakt-form-checkbox.checkbox-item {
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
@@ -805,7 +805,7 @@ border-color: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
