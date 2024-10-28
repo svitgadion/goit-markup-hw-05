@@ -791,7 +791,7 @@ border-color: #4D5AE5;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-.checkbox-privacy:checked {
+.checkbox-privacy:checked + .label-contakt-form-checkbox .checkbox-item {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
